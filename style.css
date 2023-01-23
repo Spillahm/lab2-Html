@@ -1,0 +1,84 @@
+P{
+    color: Red;
+    font-size: 24px;
+}
+
+/* Center h1 elements */
+h1 {
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Use a new font */
+body {
+    background-color: aliceblue;
+    font-family: Perpetua, serif;
+
+}
+
+/*Remove underline from links,
+set background color */
+
+a {
+    background-color: aqua;
+    text-decoration: none;
+
+}
+
+#page-title {
+    text-shadow:  6px 6px cyan;
+    margin: 50px;
+}
+
+#favorite-music-name {
+    background-color: deepskyblue;
+    font-size: large;
+}
+.important {
+    color: aquamarine;
+}
+
+.favorite-section {
+    border: 5px indigo;
+    margin: 5px;
+    padding: 12px;
+}
+ th{
+     color: orange;
+
+ }
+ td{
+     color:green;
+ }
+
+img{
+    border-radius: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    filter: blurscale(50%);
+
+}
+img:hover {
+    transform: scaleX(-2);
+}
+.responsive {
+    padding: 0 5px;
+    float: left;
+    width: 9.99999%;
+
+}
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 99.9999%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 50%;
+    }
+}
